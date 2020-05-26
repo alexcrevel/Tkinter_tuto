@@ -23,6 +23,7 @@ for ligne in range(NB_LIG):
         centre = (col*SIDE + x0,ligne*SIDE + y0)
         id_image = cnv.create_image(centre, image=logo)
 
+print("test")
 
 
 
