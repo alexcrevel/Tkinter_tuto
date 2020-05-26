@@ -15,7 +15,7 @@ fenetre = Tk()
 cnv = Canvas(fenetre, width=LARG, height=HAUT, bg="grey")
 cnv.pack(padx=20, pady=10)
 
-logo = PhotoImage(file="../fichiers_site/images/cover.gif")
+logo = PhotoImage(file="fichiers_videos\images\cover.gif")
 x0=y0=SIDE/2
 
 for ligne in range(NB_LIG):
