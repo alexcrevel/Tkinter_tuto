@@ -53,5 +53,4 @@ for ligne in range(NB_LIG):
 
 
 
-
 fenetre.mainloop()
