@@ -44,10 +44,10 @@ logos=[]
 
 for i in range(NB_CARTES):
     lang=LANG[i]
-    nom="./images/"+lang+".gif"
+    nom="fichiers_videos/images/"+lang+".gif"
     logo=PhotoImage(file=nom)
     logos.append(logo)
-cover=PhotoImage(file="./images/cover.gif")
+cover=PhotoImage(file="fichiers_videos/images/cover.gif")
 ids_cover=[]
 # Placement des images
 for lig in range(NB_LIG):
